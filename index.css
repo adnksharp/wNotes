@@ -1,0 +1,98 @@
+* {
+    background-color: #22272f;
+    border: 0;
+    color: #fff;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+input {
+    width: 50vw;
+}
+
+textarea {
+    resize: none;
+}
+
+#output {
+    margin: 0 8vw;
+}
+
+#output div {
+    margin: 1.5vw;
+}
+
+#input * {
+    padding: 0.4rem;
+}
+
+#input {
+    align-items: center;
+    margin-left: 15.5vw;
+}
+
+#shrbtx * {
+    display: block;
+    margin-top: 0;
+}
+
+#shrbtx {
+    padding: 0;
+}
+
+#output div button {
+    background-color: #000;
+    margin: 0;
+}
+
+input,
+textarea {
+    border: 1px solid #111216;
+    outline: none;
+    cursor: text;
+    padding-left: 1rem;
+}
+
+button,
+select {
+    border: 0;
+    cursor: pointer;
+    margin: 0.5vw;
+    outline: none;
+    height: 6vh;
+    width: 6vh;
+}
+
+#note,
+#shrbtx {
+    height: 10.5vh;
+}
+
+#note,
+#shrbtx,
+.folder {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#FolderSubmit,
+#NoteSubmit,
+#Note-folder {
+    width: 17vw;
+}
+
+button,
+input,
+textarea,
+select,
+#output div,
+#output div * {
+    background-color: #111216;
+}
